@@ -1,4 +1,3 @@
-
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
@@ -18,7 +17,7 @@ module.exports = {
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: ['@babel/preset-react','@babel/core']
+                    presets: ['@babel/preset-react']
                 }
             }
         }, {
