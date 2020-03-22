@@ -1,1 +1,3 @@
-# get_started_with_nextjs
+# Get started with Nextjs
+
+A simple project with next js
